@@ -5,7 +5,7 @@
   },
   "scripts": {
     "start": "node ./app.js",
-    "dev": "env-cmd -f ./config/dev.env nodemon ./app.js"
+    "dev": "env-cmd -f ./config/dev.env node ./app.js get --loc='London'"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0"
